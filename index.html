@@ -8,21 +8,197 @@
   <body>
     <div class="wrapper">
 
-      <header>
-          <h1>
-              My website
-          </h1>
-          <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas, magni. 
-              Reprehenderit deserunt cupiditate aliquid nesciunt iure veniam quis ex quisquam qui harum, cumque, 
-              nemo nobis, natus consequuntur fugiat ipsam! Molestiae.
-          </p>
+      <header class="header">
+        <a class="logo" href="#">
+          <img class="logo__pic" src="" alt="">
+        </a>
+        <nav class="navbar">
+          <ul class="navbar__list">
+            <li class="navbar__item">Главная</li>
+            <li class="navbar__item">Услуги</li>
+            <li class="navbar__item">Отзывы</li>
+          </ul>
+        </nav>
+        <address class="contacts">
+          <a class="contacts__phone" href="tel: +78007003030">8 800 700 30 30</a>
+          <div class="contacts__schedule">График работы</div>
+          <div class="contacts__workhours">
+            пн-вс: 09:00 - 20:00
+            Обед: 14:00 - 14:30
+          </div>
+        </address>
       </header>
 
-      <section>
-          <img src="https://dmitrylaskin.github.io/ls-layout/img/image1.png" alt="">
-          <img src="./img/image2.png" alt="">
-      </section>
+
+      <div class="content">
+        
+        <div class="page-title">
+          <h1 class="page-title__title">Авторские туры по Азии</h1>
+          <div class="page-title__subtitle">Открой для себя Азию</div>
+          <div class="page-title__button">Подробнее</div>
+        </div>
+
+        <main class="last-minute-tours">
+          <h2 class="last-minute-tours__title">Горящие туры</h2>
+
+          <div class="last-minute-tours__items">
+
+            <div class="tour-item">
+              <img class="tour-item__pic" src="" alt="">
+              <div class="tour-item__description">
+                <div class="tour-item__country">Тайланд</div>
+                <div class="tour-item__conditions">
+                  <div class="tour-item__nights">
+                    <img src="" alt="">
+                    <div class="tour-item__text">7- 12 ночей</div>
+                  </div>
+                  <div class="tour-item__breakfasts">
+                    <img src="" alt="">
+                    <div class="tour-item__text">Завтраки</div>
+                  </div>
+                </div>
+                <p class="tour-item__paragraph">Равным образом постоянное обеспечение нашей деятельности позвол</p>
+                <div class="tour-item__button">Смотреть</div>
+              </div>
+            </div>
+
+            <div class="tour-item">
+              <img class="tour-item__pic" src="" alt="">
+              <div class="tour-item__description">
+                <div class="tour-item__country">Бали</div>
+                <div class="tour-item__conditions">
+                  <div class="tour-item__nights">
+                    <img src="" alt="">
+                    <div class="tour-item__text">7- 12 ночей</div>
+                  </div>
+                  <div class="tour-item__breakfasts">
+                    <img src="" alt="">
+                    <div class="tour-item__text">Завтраки</div>
+                  </div>
+                </div>
+                <p class="tour-item__paragraph">Равным образом постоянное обеспечение нашей деятельности позвол</p>
+                <div class="tour-item__button">Смотреть</div>
+              </div>
+            </div>
+
+            <div class="tour-item">
+              <img class="tour-item__pic" src="" alt="">
+              <div class="tour-item__description">
+                <div class="tour-item__country">Индонезия</div>
+                <div class="tour-item__conditions">
+                  <div class="tour-item__nights">
+                    <img src="" alt="">
+                    <div class="tour-item__text">7- 12 ночей</div>
+                  </div>
+                  <div class="tour-item__breakfasts">
+                    <img src="" alt="">
+                    <div class="tour-item__text">Завтраки</div>
+                  </div>
+                </div>
+                <p class="tour-item__paragraph">Равным образом постоянное обеспечение нашей деятельности позвол</p>
+                <div class="tour-item__button">Смотреть</div>
+              </div>
+            </div>
+          </div>
+        </main>
+
+        <div class="promo">
+          <h2 class="promo__title">Новости и акции</h2>
+          <div class="promo__items">
+
+            <div class="promo-item">
+              <img class="promo-item__pic" src="" alt="">
+              <div class="promo-item__description">
+                <div class="promo-item__date">декабрь 2019</div>
+                <h3 class="promo-item__title">Дешевые путевки на Новый Год!</h3>
+                <div class="promo-item__subtitle">Проведи новый год в Тайланде</div>
+              </div>
+            </div>
+
+            <div class="promo-item">
+              <img class="promo-item__pic" src="" alt="">
+              <div class="promo-item__description">
+                <div class="promo-item__date">декабрь 2019</div>
+                <h3 class="promo-item__title">Акция для серфенгистов!</h3>
+                <div class="promo-item__subtitle">В сезон больших волн скидка на путевку в Тайланд на остров серф </div>
+              </div>
+            </div>
+
+          </div>
+          <nav class="promo__navbar">
+            <div class="promo-display">Страница 1 из 7</div>
+            <ul class="promo-list">
+              <li class="promo-list__item">1</li>
+              <li class="promo-list__item">2</li>
+              <li class="promo-list__item">3</li>
+              <li class="promo-list__item">4</li>
+              <li class="promo-list__item">5</li>
+              <li class="promo-list__item">6</li>
+              <li class="promo-list__item">7</li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="about-us">
+          <div class="image-one">
+            <img class="image-one__pic" src="" alt="">
+          </div>
+          <div class="image-two">
+            <img class="image-two__pic" src="" alt="">
+            <div class="image-two__description">
+              <div class="image-two_title">О нас</div>
+              <p class="image-two__paragraph">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке
+                а начинающему оратору отточить навык публичных выступлений в домашних условиях. 
+              </p>
+              <div class="image-two__button">Подробнее</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <footer class="footer">
+        <a class="logo" href="#">
+          <img class="logo__pic" src="" alt="">
+        </a>
+        <nav class="navbar">
+          <ul class="navbar__list">
+            <li class="navbar__item">Главная</li>
+            <li class="navbar__item">Услуги</li>
+            <li class="navbar__item">Отзывы</li>
+          </ul>
+        </nav>
+
+
+        <address class="contacts">
+
+          <div class="social-netwoks">
+            <ul class="social-netwoks__list">
+              <li class="social-netwoks__item">
+                <img class="social-netwoks__pic" src="" alt="">
+              </li>
+              <li>
+                <img class="social-netwoks__pic" src="" alt="">
+              </li>
+              <li>
+                <img class="social-netwoks__pic" src="" alt="">
+              </li>
+              <li>
+                <img class="social-netwoks__pic" src="" alt="">
+              </li>
+            </ul>
+          </div>
+
+            <a class="contacts__phone" href="tel: +78007003030">8 800 700 30 30</a>
+            <div class="contacts__schedule">График работы</div>
+            <div class="contacts__workhours">
+              пн-вс: 09:00 - 20:00
+              Обед: 14:00 - 14:30
+            </div>
+
+        </address>
+      </footer>
+
 
     </div>
   </body>
