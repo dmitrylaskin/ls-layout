@@ -1,0 +1,48 @@
+.social-networks {
+   
+
+ }
+.social-networks__list {
+    display: flex;
+    margin-right: 74px;
+ }
+
+.social-networks__item {
+ 
+    background: center center no-repeat;
+ }
+.social-networks__link {
+    display: block;
+    width: 36px;
+    height: 36px;
+    margin-right: 10px;
+    
+ }
+ .social-networks__link:last-child {
+     margin-right: 0;
+ }
+ .social-networks__item_vk {
+     background-image: url('../../img/socials/vk.png') ;    
+ }
+ .social-networks__item_vk:hover {
+     
+    background-image: url('../../img/socials/vk2.png') ;
+}
+.social-networks__item_tg {
+    background-image: url('../../img/socials/t.png') ;    
+}
+.social-networks__item_tg:hover {
+   background-image: url('../../img/socials/t2.png') ;
+}
+.social-networks__item_fb {
+    background-image: url('../../img/socials/f.png') ;    
+}
+.social-networks__item_fb:hover {
+   background-image: url('../../img/socials/f2.png') ;
+}
+.social-networks__item_inst {
+    background-image: url('../../img/socials/in.png') ;    
+}
+.social-networks__item_inst:hover {
+   background-image: url('../../img/socials/in2.png') ;
+}

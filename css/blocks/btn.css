@@ -1,0 +1,49 @@
+.btn {
+    display: inline-block;
+    color: #F5170E;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    border: 1px red solid;
+    border-radius: 35px;
+    height: 55px;
+    line-height: 54px;
+    padding: 0 20px;
+
+}
+.btn:hover {
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    border: 1px red solid;
+    border-radius: 35px;
+    height: 55px;
+    line-height: 54px;
+    padding: 0 20px;
+    background-color: #F5170E;
+}
+.btn_details {
+    padding: 0 38px;
+    background-color: #F5170E;
+    color: #fff;
+}
+.btn_details:hover {
+    padding: 0 38px;
+    background-color: #DA0100;
+}
+
+
+.sights__desc .btn_details {
+    background: #fff;
+    color: #F5170E;
+}
+.btn_details--active {
+    background-color: #DA0100;
+    color: #fff;
+    padding: 0 38px;
+}
+.btn_details--active:hover {
+    padding: 0 38px;
+}

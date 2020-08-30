@@ -1,0 +1,19 @@
+.navbar {
+   
+    font-size: 14px;
+ }
+.navbar__list {
+
+ }
+.navbar__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 54px;
+ }
+ .navbar__item:first-child {
+     margin-left: 79px;
+ }
+ .navbar__item .navbar__link:hover {
+     color: red;
+ }
+.navbar__link { }

@@ -1,0 +1,28 @@
+.breadcrubs { }
+.breadcrubs__list {
+    display: flex;
+    
+    
+
+ }
+.breadcrubs__item {
+   display: flex;
+   align-items: center;
+    
+
+ }
+.breadcrubs__item::after {
+    content: ' / ';
+    margin: 0 5px 0 5px;
+    color: #9A9A9A;
+ }
+ .breadcrubs__item:last-child::after {
+    display: none;
+ }
+.breadcrubs__link {
+    text-decoration: underline;
+    color: #9A9A9A;
+ }
+ .breadcrubs__link--active {
+    color: #fff;
+ }
