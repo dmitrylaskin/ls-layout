@@ -35,15 +35,6 @@
 }
 
 
-.sights__desc .btn_details {
-    background: #fff;
-    color: #F5170E;
-}
-.btn_details--active {
-    background-color: #DA0100;
-    color: #fff;
-    padding: 0 38px;
-}
-.btn_details--active:hover {
+.sights__desc .btn {
     padding: 0 38px;
 }

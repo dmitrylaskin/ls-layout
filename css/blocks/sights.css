@@ -5,6 +5,7 @@
 .sights__list {
     
     
+    
  }
 .sights__item {
     display: flex;
@@ -16,7 +17,7 @@
      margin-bottom: 0;
  }
 .sights__img {
-  width: 460px;
+  width: 41%;
   margin-right: 7%;
  }
 

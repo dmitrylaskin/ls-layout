@@ -5,8 +5,13 @@
     
  }
 .partners__item {
-margin-left: 46px;
+    filter: grayscale(100%);
+    margin-left: 46px;
    
+ }
+ .partners__item:hover {
+    filter: grayscale(0);
+    transition: 1;
  }
  .partners__item:nth-child(4n + 1) {
     margin-left: 0;

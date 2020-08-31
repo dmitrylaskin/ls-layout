@@ -8,8 +8,11 @@
  }
 
 .social-networks__item {
- 
+    margin-right: 10px;
     background: center center no-repeat;
+ }
+ .social-networks__item:last-child {
+     margin-right: 0;
  }
 .social-networks__link {
     display: block;

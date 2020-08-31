@@ -12,7 +12,7 @@
 .paginator__link {
     display: inline-block;
     font-weight: 700;
-    line-height: 32px;
+    line-height: 30px;
     border: 1px solid rgba(255, 255, 255, 0);
     width: 32px;
     border-radius: 50%;
@@ -47,4 +47,8 @@
  }
  .page-content .paginator__link {
      color: #000;
+ }
+ .page-content .paginator__item .paginator__link_active {
+    background-color: #F5170E;
+    color: #fff;
  }

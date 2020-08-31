@@ -1,18 +1,19 @@
 .breadcrubs { }
 .breadcrubs__list {
+   
     display: flex;
-    
+    align-items: center;
     
 
  }
 .breadcrubs__item {
-   display: flex;
-   align-items: center;
+ 
     
 
  }
 .breadcrubs__item::after {
     content: ' / ';
+    display: inline-block;
     margin: 0 5px 0 5px;
     color: #9A9A9A;
  }
