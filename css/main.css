@@ -22,3 +22,16 @@
 @import url('./blocks/breadcrumbs.css');
 @import url('./blocks/sights.css');
 @import url('./blocks/partners.css');
+@import url('./blocks/dropdown.css');
+
+/* reviews */
+@import url('./blocks/review.css');
+@import url('./blocks/person-data.css');
+@import url('./blocks/review-desc.css');
+@import url('./blocks/separator.css');
+@import url('./blocks/form.css');
+@import url('./blocks/question.css');
+@import url('./blocks/tour-tag.css');
+
+/* welcome */
+@import url('./blocks/welcome.css');

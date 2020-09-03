@@ -1,0 +1,28 @@
+.tour-tag:last-child {
+    margin-right: 0;
+ }
+ .tour-tag {
+   font-size: 13px;
+   padding: 15px 20px;
+   display: inline-block;
+   background: #E7E7E7;
+   border-radius: 35px;
+   color: #303030;
+   margin-right: 15px;
+   margin-bottom: 0;
+   
+}
+.person-data .tour-tag--active {
+   background: #B9EAE4;
+}
+.question__options .tour-tag--active {
+   background: #B9EAE4;
+}
+.tour-list {
+   display: flex;
+   align-items: flex-start;
+   flex-wrap: wrap;
+}
+.tour-list :first-child {
+   margin-bottom: 10px;
+}

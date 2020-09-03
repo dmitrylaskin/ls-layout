@@ -1,0 +1,23 @@
+.question {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+ }
+.question__text {
+    display: inline-block;
+    width: 35%;
+    font-size: 18px;
+    color: #1A1B1E;
+   
+ }
+.question__options {
+    
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    align-content: space-around;
+    height: 110px;
+    
+ }
+
+

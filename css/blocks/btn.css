@@ -24,17 +24,33 @@
     padding: 0 20px;
     background-color: #F5170E;
 }
-.btn_details {
+.btn--color--red {
     padding: 0 38px;
     background-color: #F5170E;
     color: #fff;
 }
-.btn_details:hover {
+.btn--color--red:hover {
     padding: 0 38px;
     background-color: #DA0100;
 }
 
-
+.btn_reset {
+    border: 1px #2B2B2B solid;
+    padding: 0 38px;
+    background: #2B2B2B;
+    color: #fff;
+    margin-right: 17px;
+}
+.btn_reset:hover {
+    border: 1px #8E8E8E solid;
+    padding: 0 38px;
+    background: #8E8E8E;
+}
 .sights__desc .btn {
     padding: 0 38px;
+}
+
+
+.welcome .btn {
+    padding: 0 60px;
 }

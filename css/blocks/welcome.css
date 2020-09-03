@@ -1,0 +1,19 @@
+.welcome-bg {
+    background: url('../../img/screen.jpg') center center no-repeat;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+.welcome {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.welcome__logo {
+    
+}
+.welcome-bg .page-title__subtitle {
+    margin-bottom: 52px;
+
+}

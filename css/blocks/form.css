@@ -1,0 +1,54 @@
+.form {
+    color: #000;
+ }
+ .form__row {
+     display: flex;
+     margin-bottom: 30px;
+ }
+ .form__input {
+     flex: 1;
+     margin-right: 30px;
+     border-radius: 5px;
+     padding: 20px 30px;
+ }
+ .form__input:last-child {
+     margin-right: 0;
+ }
+ .form__input::placeholder {
+     color: #666;
+ }
+ .form__input--textarea {
+     height: 232px;
+ }
+.form__controls {
+    display: flex;
+}
+.form__controls__title {
+    width: 32%;
+}
+.form-btns {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.controls {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.controls__item {
+    margin: 0 10px 10px 0;
+ }
+
+.controls__elem {
+    cursor: pointer;
+ }
+ .controls__checkbox {
+     display: none;
+ }
+.controls__checkbox:checked ~ .controls__tour-tag {
+    background: #B9EAE4;
+ }
+
+

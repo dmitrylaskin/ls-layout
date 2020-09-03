@@ -1,0 +1,17 @@
+.review-desc { }
+.review-desc__title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #1A1B1E;
+    margin-bottom: 13px;
+    line-height: 42px;
+ }
+.review-desc__paragraph {
+    color: #818181;
+    line-height: 27px;
+    margin-bottom: 50px;
+ }
+.review-desc__date {
+    font-size: 14px;
+    font-weight: 700;
+ }

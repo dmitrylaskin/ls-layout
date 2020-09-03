@@ -1,0 +1,44 @@
+.person-data {
+    display: flex;
+    align-items: center;
+    margin-bottom: 27px;
+    
+    
+ }
+
+.person-data__img {
+    width: 142px;
+    height: 142px;
+    overflow: hidden;
+    
+ }
+.person-data__img-element {
+    display: block;
+    max-width: 100%;
+    border-radius: 50%;
+ }
+.person-data__name {
+    color: #2E77A4;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: underline;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+ }
+ .person-data__name::after {
+     content: url('../../img/socials/vk-blue.png');
+     display: inline-block;
+     width: 30px;
+     height: 30px;
+     margin-left: 8px;
+ }
+
+
+ .person-data__info {
+     margin-left: 22px;
+     /* display: flex;
+     flex-direction: column; */
+    
+     
+ }
