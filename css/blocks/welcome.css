@@ -17,3 +17,36 @@
     margin-bottom: 52px;
 
 }
+
+.welcome--anim {
+    
+    opacity: 0;
+    animation: zoom 1s ease-in;
+    animation-fill-mode: forwards;
+}
+@keyframes zoom {
+    from {
+        transform: scale(0.7);
+    }
+    10% {
+        opacity: 0.5;
+    }
+    20% {
+        transform: scale(1.15);
+        opacity: 1;
+        ;
+    }
+    40% {
+        transform: scale(0.9);
+        
+    }
+    60% {
+        transform: scale(1.1);
+    }
+    80% {
+        transform: scale(0.95);
+    }
+    to {
+        opacity: 1;
+    }
+}

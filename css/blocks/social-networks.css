@@ -10,21 +10,113 @@
 .social-networks__item {
     margin-right: 10px;
     background: center center no-repeat;
+    cursor: pointer;
  }
  .social-networks__item:last-child {
      margin-right: 0;
  }
-.social-networks__link {
+ .social-networks__item_tg .social-networks__link {
     display: block;
     width: 36px;
     height: 36px;
     margin-right: 10px;
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
     
  }
+ .social-networks__item_tg .social-networks__link::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 36px;
+    height: 36px;
+    transform: translate(-50%, -50%);
+    background: url('../../img/sprites.png') -10px -10px;
+ }
+
+ .social-networks__item_tg .social-networks__link:hover::after {
+    background: url('../../img/sprites.png') -66px -10px;
+ }
+
+
+ .social-networks__item_vk .social-networks__link {
+    display: block;
+    width: 36px;
+    height: 36px;
+    margin-right: 10px;
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+    
+ }
+ .social-networks__item_vk .social-networks__link::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 36px;
+    height: 36px;
+    transform: translate(-50%, -50%);
+    background: url('../../img/sprites.png') -122px -10px;
+ }
+ .social-networks__item_vk .social-networks__link:hover::after {
+    background: url('../../img/sprites.png') -178px -10px;
+ }
+
+ .social-networks__item_fb .social-networks__link {
+    display: block;
+    width: 36px;
+    height: 36px;
+    margin-right: 10px;
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+    
+ }
+ .social-networks__item_fb .social-networks__link::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 36px;
+    height: 36px;
+    transform: translate(-50%, -50%);
+    background: url('../../img/sprites.png') -234px -10px;
+ }
+ .social-networks__item_fb .social-networks__link:hover::after {
+    background: url('../../img/sprites.png') -290px -10px;
+ }
+
+ .social-networks__item_inst .social-networks__link {
+    display: block;
+    width: 36px;
+    height: 36px;
+    margin-right: 10px;
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+    
+ }
+ .social-networks__item_inst .social-networks__link::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 36px;
+    height: 36px;
+    transform: translate(-50%, -50%);
+    background: url('../../img/sprites.png') -346px -10px;
+ }
+ .social-networks__item_inst .social-networks__link:hover::after {
+    background: url('../../img/sprites.png') -402px -10px;
+ }
+
  .social-networks__link:last-child {
      margin-right: 0;
  }
- .social-networks__item_vk {
+ /* .social-networks__item_vk {
      background-image: url('../../img/socials/vk.png') ;    
  }
  .social-networks__item_vk:hover {
@@ -48,4 +140,4 @@
 }
 .social-networks__item_inst:hover {
    background-image: url('../../img/socials/in2.png') ;
-}
+} */
